@@ -1,7 +1,7 @@
 from datetime import datetime
 
 class Binding:
-    def __init__(self, name, bind_from, bind_to, is_enabled=False):
+    def __init__(self, name, bind_from, bind_to, is_enabled=True):
         self.name = name
         self.bind_from = bind_from
         self.bind_to = bind_to
